@@ -1,3 +1,8 @@
+Note: This package is a fork of wepback at v4.44.1, but with acorn upgraded from v6 to v8 
+so that it can parse modern javascript syntax. Selective patches have been applied, however, 
+newer syntax such as dynamic imports, and export * as might not work 100% as per expectations as
+these have been copied over from the wepback 5 implementation.
+
 <div align="center">
   <a href="https://github.com/webpack/webpack">
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
